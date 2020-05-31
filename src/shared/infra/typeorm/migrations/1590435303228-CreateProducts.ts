@@ -35,7 +35,7 @@ export default class CreateProducts1590435303228 implements MigrationInterface {
           {
             name: 'updated_at',
             type: 'timestamp',
-            defaul: 'now()',
+            default: 'now()',
           },
         ],
       }),
